@@ -1,0 +1,63 @@
+/*
+ * Link font style
+ */
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+ /*
+  * Sidebar
+  */
+ 
+ @media (min-width: 768px) {
+   .sidebar .offcanvas-lg {
+     position: -webkit-sticky;
+     position: sticky;
+     top: 48px;
+   }
+   .navbar-search {
+     display: block;
+   }
+ }
+ 
+ .sidebar .nav-link {
+   font-size: 0.875rem;
+   font-weight: 500;
+ }
+ 
+ .sidebar-heading {
+   font-size: 0.75rem;
+ }
+ 
+ /*
+  * Navbar
+  */
+ 
+ .navbar-brand {
+   padding-top: 0.75rem;
+   padding-bottom: 0.75rem;
+   background-color: rgba(0, 0, 0, 0.25);
+   box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ .navbar .form-control {
+   padding: 0.75rem 1rem;
+ }
+ 
+  /*
+  * Kalkulator
+  */
+
+ html,
+ body {
+   height: 100%;
+ }
+
+ main {
+   max-width: 371px;
+ }
+
+ .btn {
+   height: 55px;
+ }
+ 
+ 
+ 
