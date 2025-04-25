@@ -134,7 +134,7 @@
                     class="nav-link d-flex align-items-center gap-2 text-dark"
                     href="address.php"
                   >
-                    <img src="asset/icons/house-fill.svg" alt="house-fill" />
+                    <img src="asset/icons/geo-alt-fill.svg" alt="geo-alt-fill" />
                     Address
                   </a>
                 </li>
@@ -148,7 +148,7 @@
                     class="nav-link d-flex align-items-center gap-2 text-dark"
                     href="logout.php"
                   >
-                    <img src="asset/icons/door-closed.svg" alt="door-closed" />
+                    <img src="asset/icons/door-open-fill.svg" alt="door-open-fill" />
                     Logout
                   </a>
                 </li>
@@ -230,12 +230,9 @@
     ></script>
 
     <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/chart.js@4.3.2/dist/chart.umd.js"
-      integrity="sha384-eI7PSr3L1XLISH8JdDII5YN/njoSsxfbrkCTnJrzXt+ENP5MOVBxD+l6sEG4zoLp"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+      integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
       crossorigin="anonymous"
     ></script>
-
-    <script defer src="asset/js/dashboard.js"></script>
   </body>
 </html>

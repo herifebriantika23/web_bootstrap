@@ -24,7 +24,7 @@
   <body class="d-flex align-items-center py-5 bg-body-tertiary">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+        <div class="col-lg-5 p-5 shadow">
           <main class="form-signin m-auto">
             <?php
         if (isset($_GET['pesan'])) { ?>
@@ -39,7 +39,7 @@
                 } else if ($_GET['pesan'] == "logout") {
                     echo "Anda telah berhasil logout";
                 } else if ($_GET['pesan'] == "belum_login") {
-                    echo "Anda harus login untuk mengakses halaman admin";
+                    echo "Anda harus login untuk mengakses halaman website";
                 }
                 ?>
               <button

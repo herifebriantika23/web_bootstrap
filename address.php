@@ -135,7 +135,7 @@
                     class="nav-link d-flex align-items-center gap-2 text-dark"
                     href="address.php"
                   >
-                    <img src="asset/icons/house-fill.svg" alt="house-fill" />
+                    <img src="asset/icons/geo-alt-fill.svg" alt="geo-alt-fill" />
                     Address
                   </a>
                 </li>
@@ -149,7 +149,7 @@
                     class="nav-link d-flex align-items-center gap-2 text-dark"
                     href="logout.php"
                   >
-                    <img src="asset/icons/door-closed.svg" alt="door-closed" />
+                    <img src="asset/icons/door-open-fill.svg" alt="door-open-fill" />
                     Logout
                   </a>
                 </li>
@@ -217,6 +217,12 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+      integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
       crossorigin="anonymous"
     ></script>
   </body>
