@@ -1,17 +1,3 @@
-function i(value) {
-    if (n.value === "" && value === ".") {
-      n.value = "0.";
-    } else if (n.value === "0" && value !== ".") {
-      n.value = value;
-    } else if (value === ".") {
-      if (!n.value.includes(".")) {
-        n.value += value;
-      }
-    } else {
-      n.value += value;
-    }
-  }
-
   function i(value) {
     if (n.value === "" && value === ".") {
       n.value = "0.";
